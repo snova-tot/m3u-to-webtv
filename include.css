@@ -1,0 +1,107 @@
+.m3u_to_webtv_desc {
+    float: right;
+    width: 500px;
+    color: gray;
+    text-align: justify;
+}
+
+
+.file-wrapper {
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    padding-right: 27px;
+    margin: 3px 0px 0px 0px;
+    border: 1px solid gray;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    height: 20px;
+    border-spacing: 0px;
+    width: 100%;
+}
+
+.file-wrapper-m3u {
+    background: url(img.attach-m3u.png) no-repeat right 2px;
+    float: right;
+    width: 250px;
+    margin: 7px 0px 0px 20px;
+    display:table;
+}
+
+.file-wrapper input {
+    cursor: pointer;
+    font-size: 100px;
+    height: 100%;
+    filter: alpha(opacity=1);
+    -moz-opacity: 0.01;
+    opacity: 0.01;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.button-clr img {
+	opacity: 0.4;
+	}
+
+#button-clr img:hover{
+	opacity: 0.8;
+	}
+
+#file2convertbuttonlabel {
+	background-color: rgb(234, 235, 238);
+	display:table-cell;
+	padding: 2px;
+	}
+
+
+#file2convertbutton-clr {
+	background-color: rgb(234, 235, 238);
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.button-convert {
+    /* width: 100px; */
+    background-image: url(img.ok.png);
+    background-position: 8px 4px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+.div_button_convert {
+	padding-top: 50px;
+	text-align: center;
+	}
+
+
+
+
+.button {
+	cursor: pointer;
+	cursor: hand;
+	font-size: 13px;
+	background-color: #EAEBEE;
+}
+
+.button:hover:  {
+	background-color: #D7D7D7; 
+	}
+
+.button-convert {
+	width: 265px;
+	border-bottom-color: #CCCCCC;
+	border-bottom-style: outset;
+	border-bottom-width: 1px;
+	border-left-color: #CCCCCC;
+	border-left-style: outset;
+	border-left-width: 1px;
+	border-right-color: #CCCCCC;
+	border-right-style: outset;
+	border-right-width: 1px;
+	border-top-color: #CCCCCC;
+	border-top-style: outset;
+	border-top-width: 1px;
+	}
